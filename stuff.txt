@@ -1,0 +1,23 @@
+parts: {
+  rawGood: psf, fiberglass, foam, cardboard
+
+  },
+  finishedGood: {
+    psf, fiberglass, foam, cardboard
+  },
+  consumables: {
+    
+  },
+  equipment: {
+    
+  },
+  parts: {
+    
+  },
+  officeSupplies: {
+    
+  },
+
+
+}
+

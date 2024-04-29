@@ -1,0 +1,113 @@
+@font-face {
+  font-family: 'Roboto-Regular';
+  src: url('./Roboto-Regular.ttf')
+  /* Add more src lines if you have additional formats */
+}
+
+body {
+  margin: 0;
+  background-color: rgb(102, 102, 102);
+  font-family: Arial, sans-serif;
+}
+#navbarDiv {
+  background-color: rgb(134, 3, 3);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+#mainNavDiv {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 2px;
+  height: 8vh;
+  :not(:first-child, :last-child) {
+    border-left: black 2px solid;
+    border-right: black 2px solid;
+  }
+  :hover {
+    transition: ease-in 0.2s;
+    color: rgb(2, 19, 175);
+  }
+  > h4 {
+    padding: 0 10px;
+    color: white;
+    font-size: 22px;
+    cursor: pointer;
+  }
+}
+#newPartDiv {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+#searchAndMessageDiv {
+  margin: 10px 7px;
+  display: flex;
+}
+
+#messageDiv {
+  margin: 0 5px;
+  align-self: center;
+}
+
+#bodyDiv {
+  font-size: 18px;
+  margin: 0 10px;
+}
+.invPart {
+  cursor: pointer;
+  margin: 10px;
+}
+.invPart:hover {
+  transition: ease-in 0.2s;
+  color: rgb(2, 19, 175);
+}
+.form {
+  border: 2px solid black;
+  padding: 10px;
+  width: 500px;
+  display: flex;
+  flex-direction: column;
+}
+.form > label {
+  margin: 5px 0;
+}
+
+
+
+#partDefinitionList {
+  border: 2px solid black;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  margin: 10px;
+  justify-content: space-between;
+  align-items: left;
+}
+ #partDefinitionList > dt {
+    font-weight: bold;
+    font-size: 20px;
+    color: rgb(134, 3, 3);
+    margin: 10px;
+    text-align: left;
+  }
+ #partDefinitionList > dd {
+    margin: 10px;
+    text-align: left;
+    color: rgb(2, 35, 105);
+    font-weight: normal; 
+  }
+
+#partImage {
+  width: 300px;
+}
+.location {
+  color: rgb(134, 3, 3);
+  font-weight: bold;
+  cursor: pointer;
+}
+.location:hover {
+  transition: ease-in 0.2s;
+  color: rgb(2, 19, 175);
+}

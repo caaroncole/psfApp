@@ -1,0 +1,18 @@
+<form id="locationForm" class="form">
+  <label>Location Type</label>
+    <select id="locationType" name="locationType">
+      <option value="rack">Rack/Bay Space</option>
+      <option value="floor">Floor Space(not floor of Rack/Bay Space)</option>
+      <option value="warehouseLocation">Warehouse location</option>
+      <option value="aisle">Aisle</option>
+    </select>
+    <label for="locationName">Full Location Name</label>
+    <input type="text" name="locationName" id="locationName" maxLength="20" required>
+  <label for="desc">Description</label>
+  <input type="text" name="locationDescription" id="desc" maxLength="40" >
+  <label for="aisleNumber">Aisle Number</label>
+  <input type="text" name="aisleNumber" id="aisleNumber" maxLength="20" >
+  <label for="bayNumber">Bay Number</label>
+  <input type="text" name="bayNumber" id="bayNumber" maxLength="20" >
+</form>
+
